@@ -12,3 +12,5 @@ fi
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 cp "$SCRIPT_DIR/.spacemacs" ~/.spacemacs
 
+cp "$SCRIPT_DIR/neovim/config.lua" ~/.config/lvim/config.lua
+
